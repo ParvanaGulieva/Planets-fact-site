@@ -1,0 +1,22 @@
+.btn-active {
+  background-color: #d83a34;
+}
+
+@media screen and (max-width: 520px) {
+  .btn-active {
+    background-color: transparent;
+    /* border-bottom: 5px solid #393950; */
+    position: relative;
+  }
+
+  .btn-active::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #d83a34;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/jupiter/jupiter.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="logo">The planets</div>
+        <div class="menu-button">
+          <img src="/images/menu-toggle.png" alt="" />
+        </div>
+        <div class="close-button">
+          <img src="/images/x.png" alt="" />
+        </div>
+        <div class="nav-elements">
+          <ul>
+            <li class="nav-element"><a href="/mercury.html">Mercury</a></li>
+            <li class="nav-element"><a href="/venus/venus.html">Venus</a></li>
+            <li class="nav-element"><a href="/earth/earth.html">Earth</a></li>
+            <li class="nav-element"><a href="/mars/mars.html">mars</a></li>
+            <li class="nav-element">
+              <a href="/jupiter/jupiter.html">jupiter</a>
+            </li>
+            <li class="nav-element">
+              <a href="/saturn/saturn.html">saturn</a>
+            </li>
+            <li class="nav-element">
+              <a href="/uranus/uranus.html">uranus</a>
+            </li>
+            <li class="nav-element">
+              <a href="/neptune/neptune.html">neptune</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="about">
+      <img class="photo active overview" src="/images/jupiter.png" alt="" />
+      <img class="photo internal" src="/images/jupiter-2.png" alt="" />
+
+      <img class="photo surface" src="/images/jupiter-3.png" alt="" />
+
+      <div class="info">
+        <h1 class="title-hero">JUPITER</h1>
+        <p class="description active overview">
+          Jupiter is the fifth planet from the Sun and the largest in the Solar
+          System. It is a gas giant with a mass two and a half times that of all
+          the other planets in the Solar System combined, but less than
+          one-thousandth the mass of the Sun.
+        </p>
+
+        <p class="description internal">
+          When the Juno arrived in 2016, it found that Jupiter has a very
+          diffuse core that mixes into its mantle. A possible cause is an impact
+          from a planet of about ten Earth masses a few million years after
+          Jupiter's formation, which would have disrupted an originally solid
+          Jovian core.
+        </p>
+
+        <p class="description surface">
+          The best known feature of Jupiter is the Great Red Spot, a persistent
+          anticyclonic storm located 22° south of the equator. It is known to
+          have existed since at least 1831, and possibly since 1665.
+        </p>
+        <p class="source">
+          Source :
+          <a class="wiki" href="https://en.wikipedia.org/wiki/Jupiter"
+            >Wikipedia</a
+          >
+          <img
+            src="/images/external-link-square-with-an-arrow-in-right-diagonal.png"
+            alt=""
+          />
+        </p>
+      </div>
+      <div class="buttons">
+        <a href="#" class="btn btn-active" data-id="overview"
+          ><span class="btn-span">01</span>Overview</a
+        >
+        <a href="#" class="btn" data-id="internal"
+          ><span class="btn-span">02</span
+          ><span class="btn-span-2">internal</span> structure</a
+        >
+        <a href="#" class="btn" data-id="surface"
+          ><span class="btn-span">03</span>
+          <span class="btn-span-2">surface</span> geology</a
+        >
+      </div>
+      <div class="facts">
+        <div class="fact">
+          <h2>Rotation time</h2>
+          <p class="fact_info">9.93 hours</p>
+        </div>
+
+        <div class="fact">
+          <h2>Revolution time</h2>
+          <p class="fact_info">11.86 years</p>
+        </div>
+
+        <div class="fact">
+          <h2>Radius</h2>
+          <p class="fact_info">69,911 km</p>
+        </div>
+
+        <div class="fact">
+          <h2>Average temp.</h2>
+          <p class="fact_info">-108°c</p>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script src="/script.js"></script>
+</html>
